@@ -1,0 +1,31 @@
+:root {
+  --main-bg-color: #c9f44d;
+  --main-border-color: #273208;
+  --main-text-color: #273208;
+}
+
+main {
+  background-color: var(--main-bg-color);
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1030px;
+  border: 5px solid var(--main-border-color);
+  border-bottom-right-radius: 250px;
+}
+
+h1 {
+  color: var(--main-text-color);
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+img {
+  display: block;
+  height: 500px;
+  width: 100%;
+  max-width: 990px;
+  border-bottom-right-radius: 210px;
+  margin: 20px;
+}
