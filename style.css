@@ -1,16 +1,21 @@
-body {
+:root {
+  --main-bg-color: #c9f44d;
+  --main-border-color: #273208;
+  --main-text-color: #273208;
 }
 
-div {
-  background-color: #c9f44d;
+main {
+  background-color: var(--main-bg-color);
   margin: 20px;
   padding: 20px;
-  width: 1030px;
-  border: 5px solid #273208;
+  width: 100%;
+  max-width: 1030px;
+  border: 5px solid var(--main-border-color);
   border-bottom-right-radius: 250px;
 }
+
 h1 {
-  color: #273208;
+  color: var(--main-text-color);
   font-size: 60px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
@@ -19,7 +24,8 @@ h1 {
 img {
   display: block;
   height: 500px;
-  width: 990px;
+  width: 100%;
+  max-width: 990px;
   border-bottom-right-radius: 210px;
   margin: 20px;
 }
